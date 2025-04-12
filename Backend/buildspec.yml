@@ -26,7 +26,7 @@ phases:
 
       - echo Pushing Backend Docker image to ECR...
 
-      - docker push 124355663661.dkr.ecr.ap-northeast-3.amazonaws.com/g1-repo1:backend
+      - docker push 124355663661.dkr.ecr.ap-northeast-3.amazonaws.com/g1-repo1:latest
 
       - echo Writing image definitions...
 
