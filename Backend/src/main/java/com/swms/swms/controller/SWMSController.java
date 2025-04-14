@@ -12,7 +12,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://13.208.191.60:3000") 
+@CrossOrigin(origins = "http://15.152.50.159:3000") 
 
 public class SWMSController {
     
