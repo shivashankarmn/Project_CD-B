@@ -67,7 +67,7 @@ public class SecurityConfig {
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
-        configuration.setAllowedOrigins(List.of("http://13.208.182.51:3000","https://abdefa82202d84d52aa94f8b99acff12-512479826.ap-northeast-3.elb.amazonaws.com")); // ✅ Allow frontend
+        configuration.setAllowedOrigins(List.of("http://13.208.182.51:3000","http://abdefa82202d84d52aa94f8b99acff12-512479826.ap-northeast-3.elb.amazonaws.com")); // ✅ Allow frontend
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS")); // ✅ Allowed methods
         configuration.setAllowedHeaders(List.of("*"));
         configuration.setAllowCredentials(true); // ✅ Allow credentials (important for authentication)
