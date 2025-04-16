@@ -12,7 +12,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://13.208.182.51:3000") 
+@CrossOrigin(origins = "http://13.208.182.51:3000","https://abdefa82202d84d52aa94f8b99acff12-512479826.ap-northeast-3.elb.amazonaws.com") 
 
 public class SWMSController {
     
